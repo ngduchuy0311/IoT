@@ -1,0 +1,124 @@
+body{
+    margin: 1% 10% 0% 10%;
+}
+
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.box p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.box1{
+    border: 1px solid rgb(224, 224, 224);
+    width: 33%;
+    height: 100px;
+
+    /* background: linear-gradient(to top right, #ffbebe 0%, #ff0000 100%); */
+    border-radius: 10px;
+    margin: 0px 15px 15px 0px;
+}
+.box2{
+    border: 1px solid rgb(224, 224, 224);
+    width: 33%;
+    height: 100px;
+    /* background: linear-gradient(to top right, #b0ebff 0%, #00c8ff 100%); */
+
+    border-radius: 10px;
+    margin: 0px 15px 15px 0px;
+}
+.box3{
+    border: 1px solid rgb(224, 224, 224);
+    width: 33%;
+    height: 100px;
+    /* background: linear-gradient(to top right, #eafba0 0%, #fbe600 100%); */
+    border-radius: 10px;
+    margin: 0px 0px 15px 0px;
+}
+.nav{
+    display: flex;
+}
+.box4{
+    border: 1px solid rgb(224, 224, 224);
+    width: 66.1%;
+    height: 415px;
+    background-color:#F1F1F1;
+    border-radius: 10px;
+    margin: 0px 15px 15px 0px;
+}
+.box5{
+    /* display: flex;
+    flex-direction: column; */
+    border: 1px solid rgb(224, 224, 224);
+    width: 100%;
+    height: 199px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    /* margin: 0px 15px 15px 0px; */
+}
+.box6{
+    border: 1px solid rgb(224, 224, 224);
+    width: 100%;
+    height: 199px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    margin: 0px 15px 15px 0px;
+}
+.hbox{
+    width: 33%;
+    height: 100px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    height: 30px;
+    width: 90px;
+    
+    position: absolute;
+    left: 74%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.img1{
+    width: 40%;
+    height: 65%;
+   text-align: center;
+}
+.img2{
+    max-width: 40%;
+    max-height: 65%;
+    margin-top: 15px;
+    /* margin-left: 38%; */
+}
+.rotate {
+    animation: rotateAnimation 0.5s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.btn.on {
+    background-color: rgb(45, 204, 45);
+    color: rgb(0, 0, 0); 
+    
+  }
+  
+  .btn.off {
+    background-color: red; 
+    color: rgb(0, 0, 0); 
+  }
+  
