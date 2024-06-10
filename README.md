@@ -12,7 +12,7 @@ Dự án IOT sử dụng mạch ESP8266, cảm biến dht11, quang trở để �
 **Bước 1: Clone dự án ở repo**
 
 ```bash
-  git clone https://github.com/ngduchuy0311/backendIOT
+  git clone https://github.com/ngduchuy0311/IoT.git
 ```
 **Bước 2: Setup nodejs**
 - Cài đặt nodejs : `https://nodejs.org/en/download/current`
